@@ -1,0 +1,16 @@
+INSERT INTO access_logs (employee_id, access_time, action, file_accessed) VALUES
+(1, "2025-07-01 08:12:10", "DELETE", "finance_q2_report.xlsx"),
+(2, "2025-07-01 09:00:00", "READ", "employee_salaries.xlsx"),
+(4, "2025-07-05 18:23:50", "DELETE", "confidential_audit.pdf"),
+(3, "2025-07-02 10:15:00", "READ", "hr_policy.docx"),
+(5, "2025-07-06 14:30:00", "WRITE", "new_budget_plan.xlsx"),
+(6, 4, '2025-06-20 22:05:00', 'delete', 'budget_q3.xlsx'),
+(7, 6, '2025-05-21 08:00:00', 'login', NULL),
+(8, 6, '2025-05-21 08:15:00', 'read', 'financial_report_q2.pdf'),
+(9, 8, '2025-06-12 18:00:00', 'login', NULL),
+(10, 8, '2025-06-12 18:05:00', 'delete', 'client_list.xlsx'),
+(11, 9, '2025-06-22 09:00:00', 'login', NULL),
+(12, 10, '2025-06-22 10:00:00', 'login', NULL),
+(13, 10, '2025-06-22 10:10:00', 'read', 'marketing_plan.pptx'),
+(14, 3, '2025-06-23 11:00:00', 'login', NULL),
+(15, 3, '2025-06-23 11:05:00', 'read', 'employee_handbook.pdf');
