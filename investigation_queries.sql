@@ -1,0 +1,10 @@
+-- 1. Did any terminated employees access the system after their termination date?
+-- 2. Which files were accessed by terminated employees?
+-- 3. Who deleted files from departments other than their own?
+-- 4. Are there any access attempts outside business hours (e.g., before 8 AM or after 6 PM)?
+-- 5. Which files were accessed more than 10 times in a single day?
+-- 6. Did any employee access files from multiple departments?
+-- 7. Were there any file deletions on weekends?
+-- 8. Which employee had the highest number of deletions?
+-- 9. Which files were accessed shortly before deletion?
+-- 10. Is there any pattern of access immediately before termination?
